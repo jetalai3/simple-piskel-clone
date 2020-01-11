@@ -14421,7 +14421,7 @@ exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/\r\n   v2.0
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "body {\r\n    margin: 0 auto;\r\n}\r\n\r\n.header,\r\n.main,\r\n.control-block {\r\n    display: flex;\r\n}\r\n\r\n.main {\r\n    justify-content: space-between;\r\n    margin-left: 40px;\r\n    margin-right: 40px;\r\n    padding-top: 20px;\r\n}\r\n\r\nbutton {\r\n    border: none;\r\n    background-color: transparent;\r\n}\r\n\r\n.header {\r\n    line-height: 50px;\r\n    height: 50px;\r\n    padding-left: 20px;\r\n    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\r\n}\r\n\r\n.header__button,\r\n.header__title {\r\n    font-size: 20px;\r\n}\r\n\r\n.header__title {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.color-indicator {\r\n    height: 20px;\r\n    width: 20px;\r\n    border-radius: 50%;\r\n    border: 1px solid black;\r\n}\r\n\r\n.control-block {\r\n    box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.75),  3px 3px 3px 0px rgba(0,0,0,0.75);;\r\n    width: 230px;\r\n    flex-direction: column;\r\n    margin-top: 20px;\r\n}\r\n\r\n.control-button {\r\n    font-size: 16px;\r\n    height: 50px;\r\n    width: 100%;\r\n}\r\n\r\n.control-button__container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 3fr;\r\n    height: 100%;\r\n}\r\n\r\n.control-button__icon {\r\n    justify-self: center;\r\n}\r\n\r\n.control-button__text {\r\n    text-align: left;\r\n}\r\n\r\n.control-button:hover {\r\n    background-color: #d17eeb;\r\n}\r\n\r\n#canvas {\r\n    border: 1px solid black;\r\n    width: 100%;\r\n    height: 512px;\r\n    image-rendering: pixelated;\r\n}\r\n\r\n.active {\r\n    background-color: cyan;\r\n}\r\n\r\n.canvas-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 512px;\r\n}\r\n\r\n.search-container,\r\n.search-bar {\r\n    display: flex;\r\n}\r\n\r\n.search-bar {\r\n    margin-top: 10px;\r\n}\r\n\r\n.search-button,\r\n.grayscale-button {\r\n    border: 1px solid black;\r\n    margin-left: 10px;\r\n}\r\n\r\n.search-button:hover,\r\n.grayscale-button:hover {\r\n    background-color: #d17eeb;\r\n}\r\n\r\n#login,\r\n#output {\r\n    margin-left: 50px;\r\n}\r\n\r\n.invisible {\r\n  display: none;\r\n}", ""]);
+exports.push([module.i, "body {\r\n    margin: 0 auto;\r\n}\r\n\r\n.header,\r\n.main,\r\n.control-block {\r\n    display: flex;\r\n}\r\n\r\n.main {\r\n    justify-content: space-between;\r\n    margin-left: 40px;\r\n    margin-right: 40px;\r\n    padding-top: 20px;\r\n}\r\n\r\nbutton {\r\n    border: none;\r\n    background-color: transparent;\r\n}\r\n\r\n.header {\r\n    line-height: 50px;\r\n    height: 50px;\r\n    padding-left: 20px;\r\n    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\r\n}\r\n\r\n.header__button,\r\n.header__title {\r\n    font-size: 20px;\r\n}\r\n\r\n.header__title {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.color-indicator {\r\n    height: 20px;\r\n    width: 20px;\r\n    border-radius: 50%;\r\n    border: 1px solid black;\r\n}\r\n\r\n.control-block {\r\n    box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.75),  3px 3px 3px 0px rgba(0,0,0,0.75);;\r\n    width: 230px;\r\n    flex-direction: column;\r\n    margin-top: 20px;\r\n}\r\n\r\n.control-button {\r\n    font-size: 16px;\r\n    height: 50px;\r\n    width: 100%;\r\n}\r\n\r\n.control-button__container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 3fr;\r\n    height: 100%;\r\n}\r\n\r\n.control-button__icon,\r\n.control-button__text {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.control-button__icon {\r\n  justify-content: center;\r\n}\r\n\r\n.control-button__text {\r\n    text-align: left;\r\n}\r\n\r\n.control-button:hover {\r\n    background-color: #d17eeb;\r\n}\r\n\r\n#canvas {\r\n    border: 1px solid black;\r\n    width: 100%;\r\n    height: 512px;\r\n    image-rendering: pixelated;\r\n}\r\n\r\n.active {\r\n    background-color: cyan;\r\n}\r\n\r\n.canvas-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 512px;\r\n}\r\n\r\n.search-container,\r\n.search-bar {\r\n    display: flex;\r\n}\r\n\r\n.search-bar {\r\n    margin-top: 10px;\r\n}\r\n\r\n.search-button,\r\n.grayscale-button {\r\n    border: 1px solid black;\r\n    margin-left: 10px;\r\n}\r\n\r\n.search-button:hover,\r\n.grayscale-button:hover {\r\n    background-color: #d17eeb;\r\n}\r\n\r\n#login,\r\n#output {\r\n    margin-left: 50px;\r\n}\r\n\r\n.invisible {\r\n  display: none;\r\n}", ""]);
 
 
 /***/ }),
@@ -23615,21 +23615,21 @@ function () {
       var animationBlock = document.createElement('div');
       animationBlock.classList.add('main__animation');
       this.toolbox = new _toolbox_index__WEBPACK_IMPORTED_MODULE_4__["default"](this.setActiveTool);
-      this.toolbox.addToolbox(controlBlocks);
+      controlBlocks.appendChild(this.toolbox.createToolbox());
       this.palette = new _palette_index__WEBPACK_IMPORTED_MODULE_3__["default"](this.setColor, this.setPreviousColor, this.getColor);
-      this.palette.addPalette(controlBlocks);
+      controlBlocks.appendChild(this.palette.createPalette());
       main.appendChild(controlBlocks);
       this.canvas = new _canvas_index__WEBPACK_IMPORTED_MODULE_2__["default"](this.getColor, this.getActiveTool, this.getPixelSize, this.getPixelCount, this.setColor, this.setPixelSize, this.setPixelCount, this.setPreviousColor);
       this.framesContainer = new _framesContainer_index__WEBPACK_IMPORTED_MODULE_6__["default"](this.getFrameStack, this.setFrameStack, this.getPixelCount);
-      this.framesContainer.addFramesContainer(main);
-      this.canvas.addCanvas(main);
+      main.appendChild(this.framesContainer.createFramesContainer());
+      main.appendChild(this.canvas.createCanvas());
       this.animationPreview = new _animationPreview_index__WEBPACK_IMPORTED_MODULE_5__["default"](this.getFrameStack, this.getFPS, this.setFPS);
-      this.animationPreview.addAnimationPreview(animationBlock);
+      animationBlock.appendChild(this.animationPreview.createAnimationPreview());
       this.downloadControl = new _downloadControl_index__WEBPACK_IMPORTED_MODULE_7__["default"](this.getFrameStack, this.getFPS);
-      this.downloadControl.addDownloadControl(animationBlock);
+      animationBlock.appendChild(this.downloadControl.createDownloadControl());
       var header = document.querySelector('header');
       this.authenticateButton = new _authenticator_index__WEBPACK_IMPORTED_MODULE_8__["default"]();
-      this.authenticateButton.addAuthenticateButton(header);
+      header.appendChild(this.authenticateButton.createAuthenticateButton());
       main.appendChild(animationBlock);
       document.querySelector('body').appendChild(main);
       window.addEventListener('load', this.processLoad);
@@ -23743,8 +23743,8 @@ function () {
       }
     }
   }, {
-    key: "addAnimationPreview",
-    value: function addAnimationPreview(parentElement) {
+    key: "createAnimationPreview",
+    value: function createAnimationPreview() {
       var previewWrapperElement = document.createElement('div');
       var startButton = document.createElement('button');
       startButton.innerHTML = '<i class="far fa-play-circle"></i>';
@@ -23763,7 +23763,7 @@ function () {
       previewWrapperElement.appendChild(startButton);
       previewWrapperElement.appendChild(stopButton);
       previewWrapperElement.appendChild(fpsInput);
-      parentElement.appendChild(previewWrapperElement);
+      return previewWrapperElement;
     }
   }]);
 
@@ -23881,8 +23881,8 @@ function () {
       signOutButton.classList.toggle('invisible');
     }
   }, {
-    key: "addAuthenticateButton",
-    value: function addAuthenticateButton(parentElement) {
+    key: "createAuthenticateButton",
+    value: function createAuthenticateButton() {
       firebase_app__WEBPACK_IMPORTED_MODULE_0__["initializeApp"](this.firebaseConfig);
       var authenticateButton = document.createElement('button');
       authenticateButton.addEventListener('click', this.authenticate);
@@ -23896,9 +23896,11 @@ function () {
       var namePlate = document.createElement('div');
       namePlate.classList.add('header__nameplate');
       namePlate.id = 'nameplate';
-      parentElement.appendChild(authenticateButton);
-      parentElement.appendChild(signOutButton);
-      parentElement.appendChild(namePlate);
+      var authenticatorContainer = document.createElement('div');
+      authenticatorContainer.appendChild(authenticateButton);
+      authenticatorContainer.appendChild(signOutButton);
+      authenticatorContainer.appendChild(namePlate);
+      return authenticatorContainer;
     }
   }]);
 
@@ -24247,8 +24249,8 @@ function () {
       return this.handlers_map[handlerName](event);
     }
   }, {
-    key: "addCanvas",
-    value: function addCanvas(parentElement) {
+    key: "createCanvas",
+    value: function createCanvas() {
       var _this = this;
 
       var canvasContainer = document.createElement('div');
@@ -24269,7 +24271,7 @@ function () {
       canvasContainer.appendChild(canvas);
       canvasContainer.appendChild(Object(_utils_createRangeInput__WEBPACK_IMPORTED_MODULE_3__["default"])('size', 'Brush size in pixels: ', 1, 4, 4, 1, this.setPixelSize));
       canvasContainer.appendChild(Object(_utils_createRangeInput__WEBPACK_IMPORTED_MODULE_3__["default"])('canvas-size', 'Canvas size in pixels: ', 32, 128, 32, 32, this.setPixelCount));
-      parentElement.appendChild(canvasContainer);
+      return canvasContainer;
     }
   }]);
 
@@ -24332,6 +24334,7 @@ function () {
       var mainCanvas = document.getElementById('canvas');
       var gif = new GIF({
         workers: 2,
+        workerScript: './gif.worker.js',
         quality: 10,
         width: mainCanvas.width,
         height: mainCanvas.height
@@ -24391,8 +24394,8 @@ function () {
       download(resultUPNG, fileName, 'apng');
     }
   }, {
-    key: "addDownloadControl",
-    value: function addDownloadControl(parentElement) {
+    key: "createDownloadControl",
+    value: function createDownloadControl() {
       var downloadControlElement = document.createElement('div');
       var textInput = document.createElement('input');
       textInput.type = 'text';
@@ -24406,7 +24409,7 @@ function () {
       downloadControlElement.appendChild(textInput);
       downloadControlElement.appendChild(apngButton);
       downloadControlElement.appendChild(gifButton);
-      parentElement.appendChild(downloadControlElement);
+      return downloadControlElement;
     }
   }]);
 
@@ -24540,8 +24543,8 @@ function () {
       return frameElement;
     }
   }, {
-    key: "addFramesContainer",
-    value: function addFramesContainer(parentElement) {
+    key: "createFramesContainer",
+    value: function createFramesContainer() {
       var _this = this;
 
       var framesWrapperElement = document.createElement('div');
@@ -24557,7 +24560,7 @@ function () {
       addFrameButton.addEventListener('click', this.addNewFrame);
       addFrameButton.innerText = 'Add new frame';
       framesWrapperElement.appendChild(addFrameButton);
-      parentElement.appendChild(framesWrapperElement);
+      return framesWrapperElement;
     }
   }]);
 
@@ -24618,8 +24621,8 @@ function () {
   }
 
   _createClass(Palette, [{
-    key: "addPalette",
-    value: function addPalette(parentElement) {
+    key: "createPalette",
+    value: function createPalette() {
       var _this = this;
 
       var palette = document.createElement('div');
@@ -24637,7 +24640,7 @@ function () {
       primaryColor.id = 'primary-color';
       primaryColor.addEventListener('change', this.setColor);
       palette.appendChild(primaryColor);
-      parentElement.appendChild(palette);
+      return palette;
     }
   }]);
 
@@ -24734,8 +24737,8 @@ function () {
       return toolName;
     }
   }, {
-    key: "addToolbox",
-    value: function addToolbox(parentElement) {
+    key: "createToolbox",
+    value: function createToolbox() {
       var _this = this;
 
       var toolbox = document.createElement('div');
@@ -24748,7 +24751,7 @@ function () {
       toolbox.id = 'toolbox';
       toolbox.classList.add('main__toolbox', 'control-block', 'toolbox');
       document.querySelector('body').addEventListener('keypress', this.setActiveTool);
-      parentElement.appendChild(toolbox);
+      return toolbox;
     }
   }]);
 
@@ -24893,7 +24896,7 @@ function createRangeInputs(id, labelText, min, max, value, step, eventListener) 
   label.setAttribute('for', input);
   label.innerHTML = labelText;
   input.id = id;
-  input.type = 'number';
+  input.type = 'range';
   input.min = min;
   input.max = max;
   input.value = value;
