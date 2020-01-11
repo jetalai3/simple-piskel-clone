@@ -14421,7 +14421,7 @@ exports.push([module.i, "/* http://meyerweb.com/eric/tools/css/reset/\r\n   v2.0
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "body {\r\n    margin: 0 auto;\r\n}\r\n\r\n.header,\r\n.main,\r\n.control-block {\r\n    display: flex;\r\n}\r\n\r\n.main {\r\n    justify-content: space-between;\r\n    margin-left: 40px;\r\n    margin-right: 40px;\r\n    padding-top: 20px;\r\n}\r\n\r\nbutton {\r\n    border: none;\r\n    background-color: transparent;\r\n}\r\n\r\n.header {\r\n    line-height: 50px;\r\n    height: 50px;\r\n    padding-left: 20px;\r\n    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\r\n}\r\n\r\n.header__button,\r\n.header__title {\r\n    font-size: 20px;\r\n}\r\n\r\n.header__title {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.color-indicator {\r\n    height: 20px;\r\n    width: 20px;\r\n    border-radius: 50%;\r\n    border: 1px solid black;\r\n}\r\n\r\n.control-block {\r\n    box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.75),  3px 3px 3px 0px rgba(0,0,0,0.75);;\r\n    width: 230px;\r\n    flex-direction: column;\r\n    margin-top: 20px;\r\n}\r\n\r\n.control-button {\r\n    font-size: 16px;\r\n    height: 50px;\r\n    width: 100%;\r\n}\r\n\r\n.control-button__container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 3fr;\r\n    height: 100%;\r\n}\r\n\r\n.control-button__icon,\r\n.control-button__text {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.control-button__icon {\r\n  justify-content: center;\r\n}\r\n\r\n.control-button__text {\r\n    text-align: left;\r\n}\r\n\r\n.control-button:hover {\r\n    background-color: #d17eeb;\r\n}\r\n\r\n#canvas {\r\n    border: 1px solid black;\r\n    width: 100%;\r\n    height: 512px;\r\n    image-rendering: pixelated;\r\n}\r\n\r\n.active {\r\n    background-color: cyan;\r\n}\r\n\r\n.canvas-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 512px;\r\n}\r\n\r\n.search-container,\r\n.search-bar {\r\n    display: flex;\r\n}\r\n\r\n.search-bar {\r\n    margin-top: 10px;\r\n}\r\n\r\n.search-button,\r\n.grayscale-button {\r\n    border: 1px solid black;\r\n    margin-left: 10px;\r\n}\r\n\r\n.search-button:hover,\r\n.grayscale-button:hover {\r\n    background-color: #d17eeb;\r\n}\r\n\r\n#login,\r\n#output {\r\n    margin-left: 50px;\r\n}\r\n\r\n.invisible {\r\n  display: none;\r\n}", ""]);
+exports.push([module.i, "body {\r\n  margin: 0 auto;\r\n  font-family: Helvetica;\r\n  font-size: 13pt;\r\n  background-color: #525252;\r\n  color: #CCC;\r\n}\r\n\r\n.header,\r\n.main,\r\n.control-block {\r\n    display: flex;\r\n}\r\n\r\n.main {\r\n    justify-content: space-evenly;\r\n    margin-left: 40px;\r\n    margin-right: 40px;\r\n    padding-top: 20px;\r\n}\r\n\r\nmain * {\r\n  margin-left: 10px;\r\n  margin-right: 10px;\r\n}\r\n\r\ncanvas {\r\n  image-rendering: pixelated;\r\n}\r\n\r\nbutton {\r\n    border: none;\r\n    background-color: transparent;\r\n}\r\n\r\n.header {\r\n    line-height: 50px;\r\n    height: 50px;\r\n    padding-left: 20px;\r\n    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);\r\n}\r\n\r\n.header__login-panel {\r\n  margin-left: 20px;\r\n}\r\n\r\n.header__button,\r\n.header__title {\r\n    font-size: 20px;\r\n}\r\n\r\n.header__title {\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n}\r\n\r\n.color-indicator {\r\n    height: 20px;\r\n    width: 20px;\r\n    border-radius: 50%;\r\n    border: 1px solid black;\r\n}\r\n\r\n.control-block {\r\n    box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.75),  3px 3px 3px 0px rgba(0,0,0,0.75);;\r\n    width: 230px;\r\n    flex-direction: column;\r\n    margin-top: 20px;\r\n    background-color: #3a3a3a;\r\n}\r\n\r\n.control-button {\r\n    font-size: 16px;\r\n    height: 50px;\r\n    width: 100%;\r\n    position: relative;\r\n    color: #CCC;\r\n}\r\n\r\n.control-button__container {\r\n    display: grid;\r\n    grid-template-columns: 1fr 3fr;\r\n    height: 100%;\r\n}\r\n\r\n.control-button__icon,\r\n.control-button__text {\r\n  display: flex;\r\n  align-items: center;\r\n}\r\n\r\n.control-button__icon {\r\n  justify-content: center;\r\n}\r\n\r\n.control-button__text {\r\n    text-align: left;\r\n}\r\n\r\n.control-button:hover {\r\n    background-color: #444444;\r\n}\r\n\r\n.range-input {\r\n  width: 200px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  margin: 10px auto;\r\n}\r\n\r\n.range-input input {\r\n  width: 40px;\r\n}\r\n\r\n#canvas {\r\n  border: 1px solid black;\r\n  width: 512px;\r\n  height: 512px;\r\n}\r\n\r\n.active:before {\r\n  content: \"\";\r\n  position: absolute;\r\n  height: 100%;\r\n  width: 100%;\r\n  left: 0;\r\n  border: 3px solid gold;\r\n  box-sizing: border-box;\r\n}\r\n\r\n.canvas-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    width: 512px;\r\n}\r\n\r\n\r\n[draggable] {\r\n  -moz-user-select: none;\r\n  -khtml-user-select: none;\r\n  -webkit-user-select: none;\r\n  user-select: none;\r\n  -khtml-user-drag: element;\r\n  -webkit-user-drag: element;\r\n}\r\n\r\n.frames {\r\n  width: 100px;\r\n}\r\n\r\n.frames__button-add {\r\n  margin-top: 8px;\r\n  padding: 6px 0;\r\n  overflow: hidden;\r\n  width: 96px;\r\n  border: #888 solid 3px;\r\n  border-radius: 4px;\r\n  color: #888;\r\n  background-color: #222;\r\n  font-size: 13px;\r\n}\r\n\r\n.frames__list {\r\n  list-style-type: none;\r\n}\r\n\r\n.frames__list__frame {\r\n  text-align: center;\r\n  position: relative;\r\n  border: #444 3px solid;\r\n  border-radius: 3px;\r\n  margin: 5px 0;\r\n  cursor: move;\r\n}\r\n\r\n.frame__canvas,\r\n.frame {\r\n  width: 96px;\r\n  height: 96px;\r\n}\r\n\r\n.frame__button {\r\n  z-index: 10;\r\n  position: absolute;\r\n  background-color: rgba(100, 100, 100, 0.6);\r\n  height: 30px;\r\n  width: 30px;\r\n  border: none;\r\n}\r\n\r\n.frame__button.delete {\r\n  top: 0;\r\n  right: 0;\r\n  border-bottom-left-radius: 3px;\r\n}\r\n\r\n.frame__button.duplicate {\r\n  bottom: 0;\r\n  right: 0;\r\n  border-bottom-left-radius: 3px;\r\n}\r\n\r\n.frame.dragElem {\r\n  opacity: 0.4;\r\n}\r\n.frame.over {\r\n  border-top: 2px solid blue;\r\n}\r\n\r\n#authenticate,\r\n#signout,\r\n.download-control__button {\r\n  height: 24px;\r\n  line-height: 24px;\r\n  padding: 0 10px;\r\n  border-style: none;\r\n  border-radius: 2px;\r\n  cursor: pointer;\r\n  font-size: 13px;\r\n  font-weight: bold;\r\n  text-align: center;\r\n  text-decoration: none;\r\n  color: black;\r\n  background-color: gold;\r\n}\r\n\r\n.invisible {\r\n  display: none;\r\n}\r\n\r\n.main__animation {\r\n  width: 200px;\r\n}\r\n\r\n#animation {\r\n  width: 200px;\r\n  height: 200px;\r\n  border-radius: 0 0 2px 2px;\r\n  border: 1px Solid black;\r\n}\r\n\r\n#animation:fullscreen {\r\n  background-color: black;\r\n  height: 100vw;\r\n}\r\n\r\n.animation__container__button-wrapper {\r\n  font-size: 32px;\r\n  display: flex;\r\n  justify-content: space-between;\r\n}\r\n\r\n.download-control {\r\n  margin-top: 50px;\r\n}\r\n\r\n.download-control__header-text {\r\n  text-align: center;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.download-control__text-input {\r\n  width: 200px;\r\n}\r\n\r\n.download-control__button-wrapper {\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  margin-top: 10px;\r\n}\r\n", ""]);
 
 
 /***/ }),
@@ -23457,9 +23457,9 @@ function () {
     this.framesContainer = null;
     this.animationPreview = null;
     this.downloadControl = null;
-    this.authenticateButton = null;
+    this.authenticatePanel = null;
     this.frameStack = [];
-    this.fps = 0;
+    this.fps = 1;
   }
 
   _createClass(App, [{
@@ -23577,6 +23577,19 @@ function () {
         });
       }
 
+      var fps = localStorage.getItem('fps');
+
+      if (fps) {
+        document.getElementById('fps').value = fps;
+        this.fps = fps;
+      }
+
+      var fileName = localStorage.getItem('filename');
+
+      if (fileName) {
+        document.querySelector('download-control__text-input').value = fileName;
+      }
+
       var element = document.querySelector("#".concat(this.activeTool));
       Object(_utils_setActiveBlockElement__WEBPACK_IMPORTED_MODULE_10__["default"])(element);
       document.querySelector('#primary-color').value = this.color;
@@ -23594,6 +23607,9 @@ function () {
         localStorage.removeItem('pixelCount');
         localStorage.removeItem('pixelState');
         localStorage.removeItem('imageData');
+        localStorage.removeItem('frameStack');
+        localStorage.removeItem('fps');
+        localStorage.removeItem('filename');
       } else {
         var htmlContents = document.documentElement.innerHTML;
         localStorage.setItem('innerHtml', htmlContents);
@@ -23603,6 +23619,10 @@ function () {
         localStorage.setItem('pixelCount', this.pixelCount);
         var canvas = document.getElementById('canvas');
         localStorage.setItem('imageData', canvas.toDataURL());
+        localStorage.setItem('imageData', canvas.toDataURL());
+        localStorage.setItem('frameStack', JSON.stringify(this.frameStack));
+        localStorage.setItem('fps', document.getElementById('fps').value);
+        localStorage.setItem('filename', document.querySelector('download-control__text-input').value);
       }
     }
   }, {
@@ -23628,8 +23648,8 @@ function () {
       this.downloadControl = new _downloadControl_index__WEBPACK_IMPORTED_MODULE_7__["default"](this.getFrameStack, this.getFPS);
       animationBlock.appendChild(this.downloadControl.createDownloadControl());
       var header = document.querySelector('header');
-      this.authenticateButton = new _authenticator_index__WEBPACK_IMPORTED_MODULE_8__["default"]();
-      header.appendChild(this.authenticateButton.createAuthenticateButton());
+      this.authenticatePanel = new _authenticator_index__WEBPACK_IMPORTED_MODULE_8__["default"]();
+      header.appendChild(this.authenticatePanel.createAuthenticatePanel());
       main.appendChild(animationBlock);
       document.querySelector('body').appendChild(main);
       window.addEventListener('load', this.processLoad);
@@ -23661,6 +23681,9 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+/* eslint-disable class-methods-use-this */
+
+/* eslint-disable func-names */
 
 
 var AnimationPreview =
@@ -23686,7 +23709,7 @@ function () {
     key: "onFPSchange",
     value: function onFPSchange(event) {
       var fps = event.target.value;
-      this.setFPS(fps);
+      this.setFPS(+fps);
     }
   }, {
     key: "startAnimation",
@@ -23713,7 +23736,6 @@ function () {
         this.startTime = now - elapsed % this.fpsInterval;
         var canvas = document.getElementById('animation');
         var context = canvas.getContext('2d');
-        context.clearRect(0, 0, canvas.width, canvas.height);
         var frameStack = this.getFrameStack();
         var img = new Image();
 
@@ -23722,6 +23744,8 @@ function () {
         };
 
         img.src = frameStack[this.currentImageIndex];
+        canvas.width = img.width;
+        canvas.height = img.height;
 
         if (this.currentImageIndex === frameStack.length - 1) {
           this.currentImageIndex = 0;
@@ -23757,11 +23781,14 @@ function () {
       fullScreenButton.addEventListener('click', this.toggleFullscreenMode);
       var previewCanvas = document.createElement('canvas');
       previewCanvas.id = 'animation';
-      var fpsInput = Object(_utils_createRangeInput__WEBPACK_IMPORTED_MODULE_0__["default"])('fps', 'FPS:', 0, 24, 0, 1, this.onFPSchange);
+      var fpsInput = Object(_utils_createRangeInput__WEBPACK_IMPORTED_MODULE_0__["default"])('fps', 'FPS:', 1, 24, 1, 1, this.onFPSchange);
+      var buttonWrapper = document.createElement('div');
+      buttonWrapper.classList.add('animation__container__button-wrapper');
       previewWrapperElement.appendChild(previewCanvas);
-      previewWrapperElement.appendChild(fullScreenButton);
-      previewWrapperElement.appendChild(startButton);
-      previewWrapperElement.appendChild(stopButton);
+      buttonWrapper.appendChild(fullScreenButton);
+      buttonWrapper.appendChild(startButton);
+      buttonWrapper.appendChild(stopButton);
+      previewWrapperElement.appendChild(buttonWrapper);
       previewWrapperElement.appendChild(fpsInput);
       return previewWrapperElement;
     }
@@ -23784,14 +23811,14 @@ function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var FIREBASE_CONFIG = {
-  apiKey: "AIzaSyAb9SkvXefTxaupe0XqlBaXgVa_vmwzjOA",
-  authDomain: "simple-piskel-clone-de7f7.firebaseapp.com",
-  databaseURL: "https://simple-piskel-clone-de7f7.firebaseio.com",
-  projectId: "simple-piskel-clone-de7f7",
-  storageBucket: "simple-piskel-clone-de7f7.appspot.com",
-  messagingSenderId: "560471967840",
-  appId: "1:560471967840:web:520a2a3e5bc8ca1c615b05",
-  measurementId: "G-KRSDEE3Q9P"
+  apiKey: 'AIzaSyAb9SkvXefTxaupe0XqlBaXgVa_vmwzjOA',
+  authDomain: 'simple-piskel-clone-de7f7.firebaseapp.com',
+  databaseURL: 'https://simple-piskel-clone-de7f7.firebaseio.com',
+  projectId: 'simple-piskel-clone-de7f7',
+  storageBucket: 'simple-piskel-clone-de7f7.appspot.com',
+  messagingSenderId: '560471967840',
+  appId: '1:560471967840:web:520a2a3e5bc8ca1c615b05',
+  measurementId: 'G-KRSDEE3Q9P'
 };
 /* harmony default export */ __webpack_exports__["default"] = (FIREBASE_CONFIG);
 
@@ -23817,6 +23844,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+/* eslint-disable class-methods-use-this */
 
 
 
@@ -23874,15 +23902,14 @@ function () {
         namePlate.innerHTML = '';
       }
 
-      ;
       var authenticateButton = document.getElementById('authenticate');
       authenticateButton.classList.toggle('invisible');
       var signOutButton = document.getElementById('signout');
       signOutButton.classList.toggle('invisible');
     }
   }, {
-    key: "createAuthenticateButton",
-    value: function createAuthenticateButton() {
+    key: "createAuthenticatePanel",
+    value: function createAuthenticatePanel() {
       firebase_app__WEBPACK_IMPORTED_MODULE_0__["initializeApp"](this.firebaseConfig);
       var authenticateButton = document.createElement('button');
       authenticateButton.addEventListener('click', this.authenticate);
@@ -23893,10 +23920,11 @@ function () {
       signOutButton.innerHTML = '<i class="fab fa-google"></i> Sign out';
       signOutButton.id = 'signout';
       signOutButton.classList.toggle('invisible');
-      var namePlate = document.createElement('div');
+      var namePlate = document.createElement('p');
       namePlate.classList.add('header__nameplate');
       namePlate.id = 'nameplate';
       var authenticatorContainer = document.createElement('div');
+      authenticatorContainer.classList.add('header__login-panel');
       authenticatorContainer.appendChild(authenticateButton);
       authenticatorContainer.appendChild(signOutButton);
       authenticatorContainer.appendChild(namePlate);
@@ -24003,8 +24031,9 @@ function () {
       var canvasContext = canvas.getContext('2d');
       var fakeCanvas = document.createElement('canvas');
       var fakeCanvasContext = fakeCanvas.getContext('2d');
-      fakeCanvas.width = 512;
-      fakeCanvas.height = 512;
+      var fakeCanvasSideSize = 512;
+      fakeCanvas.width = fakeCanvasSideSize;
+      fakeCanvas.height = fakeCanvasSideSize;
       fakeCanvasContext.imageSmoothingEnabled = false;
       fakeCanvasContext.drawImage(canvas, 0, 0, fakeCanvas.width, fakeCanvas.height);
       canvas.width = pixelCount;
@@ -24132,6 +24161,7 @@ function () {
       var coords = this.getPixelCoords(event);
       var X = coords.X,
           Y = coords.Y;
+      var pixelDataOffset = 4;
       var canvas = document.getElementById('canvas');
       var context = canvas.getContext('2d');
       var drawingBoundTop = 0;
@@ -24143,7 +24173,7 @@ function () {
 
       while (pixelStack.length) {
         var newPos = pixelStack.pop();
-        var quadWidth = width * 4;
+        var quadWidth = width * pixelDataOffset;
         var pixelPos = void 0;
         var reachLeft = void 0;
         var reachRight = void 0;
@@ -24152,7 +24182,7 @@ function () {
             x = _newPos[0];
 
         var y = newPos[1];
-        pixelPos = (y * width + x) * 4;
+        pixelPos = (y * width + x) * pixelDataOffset;
 
         while (y-- >= drawingBoundTop && this.matchStartColor(pixelPos, curColor, colorToReplace, imageData)) {
           pixelPos -= quadWidth;
@@ -24167,7 +24197,7 @@ function () {
           this.colorPixel(pixelPos, curColor, imageData);
 
           if (x > 0) {
-            if (this.matchStartColor(pixelPos - 4, curColor, colorToReplace, imageData)) {
+            if (this.matchStartColor(pixelPos - pixelDataOffset, curColor, colorToReplace, imageData)) {
               if (!reachLeft) {
                 pixelStack.push([x - 1, y]);
                 reachLeft = true;
@@ -24178,7 +24208,7 @@ function () {
           }
 
           if (x < width - 1) {
-            if (this.matchStartColor(pixelPos + 4, curColor, colorToReplace, imageData)) {
+            if (this.matchStartColor(pixelPos + pixelDataOffset, curColor, colorToReplace, imageData)) {
               if (!reachRight) {
                 pixelStack.push([x + 1, y]);
                 reachRight = true;
@@ -24365,8 +24395,8 @@ function () {
       if (this.fileName.length > 0) {
         name = "".concat(this.fileName, ".").concat(extension);
       } else {
-        randomString = Object(_utils_getUniqueString__WEBPACK_IMPORTED_MODULE_0__["default"])();
-        name = name = "".concat(randomString, ".").concat(extension);
+        var randomString = Object(_utils_getUniqueString__WEBPACK_IMPORTED_MODULE_0__["default"])();
+        name = "".concat(randomString, ".").concat(extension);
       }
 
       return name;
@@ -24400,15 +24430,26 @@ function () {
       var textInput = document.createElement('input');
       textInput.type = 'text';
       textInput.addEventListener('input', this.setFileName);
+      textInput.classList.add('download-control__text-input');
       var gifButton = document.createElement('button');
+      gifButton.classList.add('download-control__button');
       gifButton.innerHTML = 'GIF';
       gifButton.addEventListener('click', this.saveGIF);
       var apngButton = document.createElement('button');
+      apngButton.classList.add('download-control__button');
       apngButton.innerHTML = 'APNG';
       apngButton.addEventListener('click', this.saveAPNG);
+      downloadControlElement.classList.add('download-control');
+      var buttonWrapper = document.createElement('div');
+      buttonWrapper.classList.add('download-control__button-wrapper');
+      buttonWrapper.appendChild(apngButton);
+      buttonWrapper.appendChild(gifButton);
+      var header = document.createElement('div');
+      header.innerHTML = 'Input file name and press button to save animation';
+      header.classList.add('download-control__header-text');
+      downloadControlElement.appendChild(header);
       downloadControlElement.appendChild(textInput);
-      downloadControlElement.appendChild(apngButton);
-      downloadControlElement.appendChild(gifButton);
+      downloadControlElement.appendChild(buttonWrapper);
       return downloadControlElement;
     }
   }]);
@@ -24444,6 +24485,11 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+/* eslint-disable class-methods-use-this */
+
+/* eslint-disable no-param-reassign */
+
+/* eslint-disable func-names */
 var FramesContainer =
 /*#__PURE__*/
 function () {
@@ -24459,6 +24505,12 @@ function () {
     this.duplicateFrame = this.duplicateFrame.bind(this);
     this.deleteFrame = this.deleteFrame.bind(this);
     this.getIndexOfFrameToOperate = this.getIndexOfFrameToOperate.bind(this);
+    this.draggedElement = null;
+    this.handleDragStart = this.handleDragStart.bind(this);
+    this.handleDrop = this.handleDrop.bind(this);
+    this.initialDnDHandlers = this.initialDnDHandlers.bind(this);
+    this.addDnDHandlers = this.addDnDHandlers.bind(this);
+    this.loadFrames = this.loadFrames.bind(this);
   }
 
   _createClass(FramesContainer, [{
@@ -24518,20 +24570,24 @@ function () {
     value: function createFrame(dataUrl) {
       var frameElement = document.createElement('li');
       var frameCanvas = document.createElement('canvas');
-      frameCanvas.style.width = '100px';
-      frameCanvas.style.height = '100px';
+      frameCanvas.classList.add('frame__canvas');
       var pixelCount = this.getPixelCount();
       frameCanvas.width = pixelCount;
       frameCanvas.height = pixelCount;
       var duplicateButon = document.createElement('button');
+      duplicateButon.classList.add('frame__button');
+      duplicateButon.classList.add('duplicate');
       duplicateButon.addEventListener('click', this.duplicateFrame);
       var deleteButton = document.createElement('button');
+      deleteButton.classList.add('frame__button');
+      deleteButton.classList.add('delete');
       deleteButton.addEventListener('click', this.deleteFrame);
       duplicateButon.innerHTML = '<i class="far fa-clone"></i>';
       deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
       frameElement.appendChild(frameCanvas);
       frameElement.appendChild(duplicateButon);
       frameElement.appendChild(deleteButton);
+      frameElement.addEventListener('mousedown', this.initialDnDHandlers);
       var context = frameCanvas.getContext('2d');
       var img = new Image();
 
@@ -24540,7 +24596,18 @@ function () {
       };
 
       img.src = dataUrl;
+      frameElement.classList.add('frames__list__frame');
+      frameElement.setAttribute('draggable', true);
       return frameElement;
+    }
+  }, {
+    key: "loadFrames",
+    value: function loadFrames() {
+      var frames = JSON.parse(localStorage.getItem('frameStack'));
+
+      if (frames) {
+        this.setFrameStack(frames);
+      }
     }
   }, {
     key: "createFramesContainer",
@@ -24549,6 +24616,10 @@ function () {
 
       var framesWrapperElement = document.createElement('div');
       this.framesContainer = document.createElement('ul');
+      this.framesContainer.id = 'frames';
+      this.framesContainer.classList.add('frames__list');
+      framesWrapperElement.classList.add('frames');
+      this.loadFrames();
       var frameStack = this.getFrameStack();
       frameStack.forEach(function (element) {
         var frame = _this.createFrame(element);
@@ -24559,8 +24630,87 @@ function () {
       var addFrameButton = document.createElement('button');
       addFrameButton.addEventListener('click', this.addNewFrame);
       addFrameButton.innerText = 'Add new frame';
+      addFrameButton.classList.add('frames__button-add');
       framesWrapperElement.appendChild(addFrameButton);
       return framesWrapperElement;
+    }
+  }, {
+    key: "initialDnDHandlers",
+    value: function initialDnDHandlers() {
+      var _this2 = this;
+
+      var cols = document.querySelectorAll('#frames .frame');
+      cols.forEach(function (element) {
+        _this2.addDnDHandlers(element);
+      });
+    }
+  }, {
+    key: "handleDragStart",
+    value: function handleDragStart(event) {
+      var target = event.target;
+      this.draggedElement = event.target;
+      event.dataTransfer.effectAllowed = 'move';
+      event.dataTransfer.setData('text/html', target);
+      target.classList.add('dragElem');
+    }
+  }, {
+    key: "handleDragOver",
+    value: function handleDragOver(event) {
+      if (event.preventDefault) {
+        event.preventDefault();
+      }
+
+      event.target.classList.add('over');
+      event.dataTransfer.dropEffect = 'move';
+      return false;
+    }
+  }, {
+    key: "handleDragLeave",
+    value: function handleDragLeave(event) {
+      event.target.classList.remove('over');
+    }
+  }, {
+    key: "handleDrop",
+    value: function handleDrop(event) {
+      var target = event.target;
+
+      if (event.stopPropagation) {
+        event.stopPropagation();
+      }
+
+      if (this.draggedElement !== target) {
+        var indexToDelete = this.getIndexOfFrameToOperate(this.draggedElement);
+
+        var frames = _toConsumableArray(this.getFrameStack());
+
+        frames.splice(indexToDelete, 1);
+        this.framesContainer.removeChild(this.draggedElement);
+        target.insertAdjacentElement('beforebegin', this.draggedElement);
+        var indexToInsertAt = this.getIndexOfFrameToOperate(this.draggedElement);
+        var imgData = this.draggedElement.children[0].toDataURL();
+        frames.splice(indexToInsertAt, 0, imgData);
+        this.setFrameStack(frames);
+        this.draggedElement.classList.remove('dragElem');
+        var dropElem = target.previousSibling;
+        this.addDnDHandlers(dropElem);
+      }
+
+      target.classList.remove('over');
+      return false;
+    }
+  }, {
+    key: "handleDragEnd",
+    value: function handleDragEnd(event) {
+      event.target.classList.remove('over');
+    }
+  }, {
+    key: "addDnDHandlers",
+    value: function addDnDHandlers(element) {
+      element.addEventListener('dragstart', this.handleDragStart, false);
+      element.addEventListener('dragover', this.handleDragOver, false);
+      element.addEventListener('dragleave', this.handleDragLeave, false);
+      element.addEventListener('drop', this.handleDrop, false);
+      element.addEventListener('dragend', this.handleDragEnd, false);
     }
   }]);
 
@@ -24892,11 +25042,11 @@ __webpack_require__.r(__webpack_exports__);
 function createRangeInputs(id, labelText, min, max, value, step, eventListener) {
   var inputContainer = document.createElement('div');
   var input = document.createElement('input');
-  var label = document.createElement('Label');
+  var label = document.createElement('label');
   label.setAttribute('for', input);
   label.innerHTML = labelText;
   input.id = id;
-  input.type = 'range';
+  input.type = 'number';
   input.min = min;
   input.max = max;
   input.value = value;
@@ -24904,6 +25054,7 @@ function createRangeInputs(id, labelText, min, max, value, step, eventListener) 
   input.addEventListener('change', eventListener);
   inputContainer.appendChild(label);
   inputContainer.appendChild(input);
+  inputContainer.classList.add('range-input');
   return inputContainer;
 }
 
